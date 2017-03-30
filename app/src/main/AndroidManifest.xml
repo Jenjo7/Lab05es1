@@ -15,6 +15,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver android:name=".MyReciver">
+            <intent-filter>
+                <action android:name="it.unibo.studio.savini.gianni.lab05es1.ACTION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".MyReciver2">
+            <intent-filter>
+                <action android:name="it.unibo.studio.savini.gianni.lab05es1.ACTION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".MyReciver3">
+            <intent-filter>
+                <action android:name="it.unibo.studio.savini.gianni.lab05es1.ACTION"/>
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>
